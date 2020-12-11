@@ -1,0 +1,24 @@
+{
+  "name": "thumbnailgeneration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "Priya Bihani",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.8.0",
+    "jimp": "^0.16.1",
+    "jsonpatch": "^3.0.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
